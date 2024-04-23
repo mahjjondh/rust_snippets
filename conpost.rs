@@ -2,7 +2,7 @@ use postgres::{error::Error, Client, NoTls};
 use std::time::SystemTime;
 #[derive(Debug)]
 struct NomedaStruct {
-    use std::time::SystemTime para tratar dados do tipo datetime
+    // use std::time::SystemTime para tratar dados do tipo datetime
 }
 
 fn print_db() -> Result<(), Error>{
