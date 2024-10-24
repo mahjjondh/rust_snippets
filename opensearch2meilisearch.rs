@@ -61,7 +61,7 @@ async fn main() {
             break;
         }
         println!("Fetched {} documents", data.len());
-        index_data_in_meilisearch(&data, "indice do meilisearch).await;
+        index_data_in_meilisearch(&data, "indice do meilisearch").await;
         println!("Indexed {} documents", data.len());
         scroll_id = new_scroll_id;
     }
